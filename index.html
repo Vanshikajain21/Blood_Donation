@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <div class="nav">
+   <ul>S
+            <a href=signup.html>SignUp</a>
+            <a href="login.html">Login</a>
+            <a href="help.html">Help</a>
+            <a href="about.html">About</a>
+          </ul>
+     <div class="header">
+   <!--- <img src="/images/img3.jpg" alt="">-->
+    <h1>Blood Donation</h1>
+    <p>“Your blood can make a difference.”</p>
+   </div>
+    </div>
+  
+    <section class="main-content">
+        <h2>After donating blood, the body works to replenish the blood loss. This stimulates the production of new blood cells and in turn, helps in maintaining good health.</h2>
+        
+    </section>
+    <div class="button">
+        <button onclick="redirectToDonorPage()">Donors</button>
+        <button onclick="redirectToNextPage()">Eligibility</button>
+       <!-- <button onclick="window.location.href ='eligiblity.html'">Eligibility</button>-->
+        <!--<button type="click"> <a href="/eligiblity.html">Eligibility</a></button>-->
+        <button onclick="redirectToContactPage()">Contact Us</button>
+    </div>
+<!--<div class="images">
+    <img src="/images/img2.jpg" alt="">
+    <img src="/images/img4.jpg"alt="">
+    <img src="/images/img5.jpg" alt="">
+    <img src="/images/img6.jpg" alt="">
+</div>
+-->
+<div class="footer">
+    <h3>Donor<br>&nbsp;256+</h3>
+    <h3>Acceptor<br>&nbsp;&nbsp;&nbsp;&nbsp;100+</h3>
+    <h3>Camps<br>&nbsp;&nbsp;&nbsp;&nbsp;20+</h3>
+</div>
+<script>
+    function redirectToNextPage() {
+        // Redirect to the next page (replace 'nextPage.html' with the actual URL)
+        window.location.href = 'eligiblity.html';
+    }
+    function redirectToContactPage(){
+        window.location.href='contactus.html';
+    }
+    function redirectToDonorPage(){
+        window.location.href='donors.html';
+    }
+</script>
+</body>
+</html>
